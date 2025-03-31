@@ -1,0 +1,27 @@
+{
+    "name": "daily-todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+      "daily": "./dist/index.js"
+    },
+    "scripts": {
+      "build": "tsc && chmod 755 dist/index.js"
+    },
+    "files": [
+      "dist"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.7.0",
+      "zod": "^3.24.2"
+    },
+    "devDependencies": {
+      "@types/node": "^22.13.14",
+      "typescript": "^5.8.2"
+    }
+}
+  
